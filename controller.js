@@ -22,7 +22,6 @@ function getTimeLeft() {
   hoursLeft = model.targetTimeInfo.Hour - model.currentTimeInfo.Hour - 1;
   minutesLeft = 59 - model.currentTimeInfo.Minute;
   secondsLeft = 59 - model.currentTimeInfo.Second;
-  console.log(daysLeft, hoursLeft, minutesLeft, secondsLeft);
   model.html = /*HTML*/ `
 <h1> Time Left of 2022!</h1>
   <div class="countDown">
